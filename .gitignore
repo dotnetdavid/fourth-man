@@ -1,0 +1,19 @@
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Hermes runtime state
+.hermes/
