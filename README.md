@@ -22,17 +22,19 @@ Skip it for small, routine questions where a direct answer is enough.
 
 ## What it does not do
 
-Fourth Man is not a vote, approval gate, or substitute for human judgment. A group of similar answers is not proof, and a clever counterargument is not proof either. The method keeps the question, evidence, and remaining uncertainty visible so the decision owner can make an informed call.
+Fourth Man is not a vote, approval gate, benchmark, evaluator, provider adapter, runner, or substitute for human judgment. A group of similar answers is not proof, and a clever counterargument is not proof either. The method keeps the question, evidence, and remaining uncertainty visible so the decision owner can make an informed call.
 
-For health-related topics, it supports public evidence appraisal and educational discussion only. It does not diagnose a person or recommend treatment, medication, triage, or emergency action.
+For health-related topics, it supports public evidence appraisal and educational discussion only. It does not diagnose a person or recommend treatment, medication, triage, or emergency action. See [LIMITATIONS.md](LIMITATIONS.md) for the full scope and limitations.
 
 ## Install in Hermes
 
-Put this folder in your active Hermes profile's `skills` directory, keeping the skill at `fourth-man/SKILL.md`. Start a new Hermes session, then ask for Fourth Man when you want a structured challenge to an important decision.
+Review the release or pinned commit before installing it. Put this folder in your active Hermes profile's `skills` directory, keeping the skill at `fourth-man/SKILL.md`. This repository has no runtime dependencies or installer. Start a new Hermes session, then ask for Fourth Man when you want a structured challenge to an important decision.
+
+Compatibility beyond the documented skill layout is not claimed without testing the specific Hermes version.
 
 ## About this repository
 
-This repository holds the reusable skill. Private experiments, project records, and evaluator material stay in their own private workspaces.
+This repository holds the reusable skill and public documentation only. Private experiments, project records, evaluator material, model assignments, and run artifacts stay in separate private workspaces. The repository makes no claim that Fourth Man improves decision quality; use deterministic validation, source verification, domain expertise, and human judgment where appropriate.
 
 ## License
 

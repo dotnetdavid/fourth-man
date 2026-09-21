@@ -15,5 +15,12 @@ Thumbs.db
 .env.*
 !.env.example
 
-# Hermes runtime state
-.hermes/
+# Generated local outputs
+runs/
+artifacts/
+outputs/
+logs/
+reports/
+*.bak
+*.tmp
+*.local.*
